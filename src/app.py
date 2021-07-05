@@ -18,6 +18,8 @@ import string
 from rich.console import Console
 
 import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 
 import pickle
